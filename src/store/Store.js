@@ -1,9 +1,13 @@
 import { createStore, applyMiddleware } from "redux";
+import AsyncStorage from "@react-native-community/async-storage";
+
+import { persistStore, persistReducer } from "redux-persist"; // imports from redux-persist
+import storage from "redux-persist/lib/storage"; // defaults to localStorage for web
 
 import logger from "redux-logger";
 import createSagaMiddleware from "redux-saga";
 
-import combinereducer from "../reducer";
+import rootReducer from "../reducer";
 import rootSaga from "./Sagas";
 
 const sagaMiddleware = createSagaMiddleware();
@@ -13,8 +17,19 @@ if (process.env.NODE_ENV === "development") {
   middleware.push(logger);
 }
 
-const Store = createStore(combinereducer, applyMiddleware(...middleware));
+// configuration object for redux-persist
+const persistConfig = {
+  key: "root",
+  storage: AsyncStorage, // define which storage to use
+};
+
+// create a persisted reducer
+const persistedReducer = persistReducer(persistConfig, rootReducer);
+
+const Store = createStore(persistReducer, applyMiddleware(...middleware));
 
 sagaMiddleware.run(rootSaga);
 
-export default Store;
+const persistor = persistStore(Store); // used to create the persisted store, persistor will be used in the next step
+
+export { Store, persistor };
