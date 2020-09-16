@@ -1,11 +1,19 @@
+import "react-native-gesture-handler";
 import React from "react";
-import { View, Text } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
+
+import Login from "../component/Login/Login";
+
+const Stack = createStackNavigator();
 
 const RootNavigator = () => {
   return (
-    <View>
-      <Text>OKOKOK</Text>
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={Login} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 };
 
