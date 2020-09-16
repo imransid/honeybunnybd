@@ -1,11 +1,13 @@
-import React from 'react';
-import {View, Text} from 'react-native';
+import React from "react";
+import Routes from "./src/route/RootNavigator";
+import store from "./src/store/Store";
+import { Provider } from "react-redux";
 
 const App = () => {
   return (
-    <View>
-      <Text>hello World</Text>
-    </View>
+    <Provider store={store}>
+      <Routes />
+    </Provider>
   );
 };
 
