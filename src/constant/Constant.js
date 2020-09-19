@@ -1,4 +1,7 @@
 const constantDataType = {
+  // Settings
+  CHANGETHEMECOLOR: "CHANGETHEMECOLOR",
+
   LOAD_QUIZES: "LOAD_QUIZES",
   REGISTER: "REGISTER",
   ADD_ADMIN: "ADD_ADMIN",
