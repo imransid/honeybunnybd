@@ -13,6 +13,7 @@ MERGED from [:react-native-community_masked-view] /home/imran/Working_Project/re
 MERGED from [:react-native-gesture-handler] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-svg] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-native:0.63.2] /root/.gradle/caches/transforms-2/files-2.1/c9d5fa7d0932ab61ca181a5dd9b19ea5/jetified-react-native-0.63.2/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /root/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /root/.gradle/caches/transforms-2/files-2.1/6dd6245206e34676e1ee3aa6ee0f68c9/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
@@ -175,6 +176,8 @@ MERGED from [:react-native-safe-area-context] /home/imran/Working_Project/react_
 MERGED from [:react-native-safe-area-context] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.63.2] /root/.gradle/caches/transforms-2/files-2.1/c9d5fa7d0932ab61ca181a5dd9b19ea5/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.2] /root/.gradle/caches/transforms-2/files-2.1/c9d5fa7d0932ab61ca181a5dd9b19ea5/jetified-react-native-0.63.2/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /root/.gradle/caches/transforms-2/files-2.1/37b6f551bc5ae153b0b627de8f563815/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44

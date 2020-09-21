@@ -18,3 +18,4 @@
 > - "redux-logger"
 > - "redux-persist"
 > - "redux-saga"
+> - "react-native-svg"
