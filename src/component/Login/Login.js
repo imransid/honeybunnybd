@@ -1,6 +1,6 @@
 import React from "react";
 
-import { View, Text, TouchableOpacity, StatusBar } from "react-native";
+import { View, Text, ImageBackground, StatusBar } from "react-native";
 
 import { useDispatch, useSelector } from "react-redux";
 
@@ -8,42 +8,47 @@ import { ChangeThemeColor } from "../../action/Setting";
 
 import styles from "./Styles";
 
+import { HorizontalLine } from "../../@library";
+
 import CustomButton from "../../element/Button/CustomLoginButton/CustomLoginButton";
 import CusFooter from "../../element/Footer/CustomFooter/CustomFooter";
 import HeaderTitle from "../../element/HeaderTitle/HeaderTitle";
+
+import LinearGradient from "react-native-linear-gradient";
 
 const Login = () => {
   const themeColor = useSelector((state) => state.Settings.ThemeColor);
 
   const dispatch = useDispatch();
 
+  const Styles = styles();
+
   return (
-    <View
-      style={{ flex: 1, backgroundColor: "#121212", flexDirection: "column" }}
+    <ImageBackground
+      style={{
+        flex: 1,
+        resizeMode: "cover",
+      }}
+      source={require("../../assets/img/image2.jpg")}
     >
-      <StatusBar backgroundColor="#121212" />
-      <View style={{ backgroundColor: "red", flex: 5 }}></View>
-      <View
-        style={{
-          flex: 2,
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <HeaderTitle text="Ideal Store For your shoping" size={22} />
+      <View style={Styles.container}>
+        <StatusBar hidden />
+        <View style={styles(5).content}></View>
+        <View style={styles(2).content}>
+          <View style={styles(0, 1).bodycontent}>
+            <HeaderTitle text="Ideal store for your shoping" size={22} />
+          </View>
+          <View style={styles(0, 0.2).bodycontent}>
+            <HorizontalLine width={"80%"} height={1} />
+          </View>
+        </View>
+        <View style={styles(3).content}>
+          <CustomButton text="sign up with email" fb={false} />
+          <CustomButton text="continue with facebook" fb={true} />
+          <CusFooter />
+        </View>
       </View>
-      <View
-        style={{
-          flex: 3,
-        }}
-      >
-        <CustomButton text="sign up with email" fb={false} />
-
-        <CustomButton text="sign up with facebook" fb={true} />
-
-        <CusFooter />
-      </View>
-    </View>
+    </ImageBackground>
   );
 };
 
