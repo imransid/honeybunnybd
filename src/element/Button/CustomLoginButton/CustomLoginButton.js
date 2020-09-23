@@ -1,16 +1,19 @@
 import React, { useCallback } from "react";
 import { View, Text, TouchableOpacity } from "react-native";
-
+import { useDispatch } from "react-redux";
 import styles from "./Styles";
-
 import { FacebookIcon, SpaceView } from "../../../@library";
+
+import { SocialLogIN } from "../../../action/Auth";
 
 const CustomLoginButton = (props) => {
   const Styles = styles();
+  const dispatch = useDispatch();
+
   const buttonColor = props.fb === true ? "#5890FF" : "#444444";
 
   const onPress = useCallback(() => {
-    props.fb === true ? console.log("facebook") : console.log("google");
+    props.fb === true ? dispatch(SocialLogIN()) : console.log("google");
   }, [props]);
 
   return (

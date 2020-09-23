@@ -13,6 +13,7 @@ const constantDataType = {
   SAVE_RESULT_QUIZ: "SAVE_RESULT_QUIZ",
   LOAD_INTI_QUIZES: "LOAD_INTI_QUIZES",
   LOAD_ALL_RESULT: "LOAD_ALL_RESULT",
+  FBLOGIN: "FBLOGIN",
 };
 
 export default constantDataType;
