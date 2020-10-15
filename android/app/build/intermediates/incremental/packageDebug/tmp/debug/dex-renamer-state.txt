@@ -1,4 +1,4 @@
-#Wed Sep 23 07:57:04 BDT 2020
-base.0=/home/imran/Working_Project/react_native/Project/honeybunnybd/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
-renamed.0=classes.dex
+#Thu Oct 15 18:40:32 BDT 2020
+base.0=J\:\\WorkProject\\honeybunnybd\\android\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
+renamed.0=classes.dex

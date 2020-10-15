@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/honeybunnybd.iml" filepath="$PROJECT_DIR$/honeybunnybd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="honeybunnybd/app" />
+      <module fileurl="file://$PROJECT_DIR$/honeybunnybd.iml" filepath="$PROJECT_DIR$/honeybunnybd.iml" group="honeybunnybd" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2134623629/react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-2134623629/react-native-community_async-storage.iml" group="honeybunnybd/react-native-community_async-storage" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1665951184/react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1665951184/react-native-community_masked-view.iml" group="honeybunnybd/react-native-community_masked-view" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1644270305/react-native-fbsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/-1644270305/react-native-fbsdk.iml" group="honeybunnybd/react-native-fbsdk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/804274343/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/804274343/react-native-gesture-handler.iml" group="honeybunnybd/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1424225465/react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/1424225465/react-native-linear-gradient.iml" group="honeybunnybd/react-native-linear-gradient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/464898896/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/464898896/react-native-safe-area-context.iml" group="honeybunnybd/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2051542888/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/2051542888/react-native-screens.iml" group="honeybunnybd/react-native-screens" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2037105723/react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-2037105723/react-native-svg.iml" group="honeybunnybd/react-native-svg" />
     </modules>
   </component>
 </project>
