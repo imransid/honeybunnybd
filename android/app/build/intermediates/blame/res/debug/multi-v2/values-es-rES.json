@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "J:\\WorkProject\\honeybunnybd\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rES\\values-es-rES.xml",
+            "outputFile": "/home/imran/Working_Project/react_native/Project/honeybunnybd/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rES/values-es-rES.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ITG-06\\.gradle\\caches\\transforms-2\\files-2.1\\b8a4d529017c24828f11f89c7f9bdbfb\\facebook-login-7.1.0\\res\\values-es-rES\\values-es-rES.xml",
+                    "source": "/home/imran/.gradle/caches/transforms-2/files-2.1/42f9df84680a83618c2afdbaa2f59219/jetified-facebook-login-7.1.0/res/values-es-rES/values-es-rES.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

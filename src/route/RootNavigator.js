@@ -7,7 +7,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import Login from "../component/Login/";
 
 // traditional login route
-import SignIn from "../component/SignIN/";
+import SignIn from "../component/SignIn";
 const Stack = createStackNavigator();
 
 const RootNavigator = () => {
