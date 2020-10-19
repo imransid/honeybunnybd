@@ -1,8 +1,11 @@
 import React from "react";
 import { View, Text } from "react-native";
-import { Grid, Row, Col, Item, Label, Input, Form } from "native-base";
+import CheckBox from '@react-native-community/checkbox'
+import { Grid, Row, Col, Item, Label, Input } from "native-base";
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
-import { MAIN_FONT_BOLD, MAIN_FONT, MAIN_FONT_SEMI_BOLD } from "../../constant";
+import { MAIN_FONT_BOLD, MAIN_FONT, MAIN_FONT_SEMI_BOLD, WHITE, TEXT_GRAY } from "../../constant";
 
 const Index = (props) => {
   return (
@@ -11,20 +14,20 @@ const Index = (props) => {
       <View
         style={{
           backgroundColor: "#242A35",
-          height: 140,
+          height: 210,
         }}
       >
         <Grid>
           <Row
             style={{
-              height: 35,
+              height: 45,
               alignItems: "center",
               paddingLeft: 10,
             }}
           >
-            <Text style={{ color: "#FFF", fontFamily: MAIN_FONT_SEMI_BOLD }}>
-              {" "}
-              {"< "}BACK
+            <FontAwesomeIcon icon={faArrowLeft} size={16} color={WHITE} />
+            <Text style={{ color: WHITE, fontFamily: MAIN_FONT_SEMI_BOLD }}>
+              {" "} BACK
             </Text>
           </Row>
           <Row
@@ -69,23 +72,61 @@ const Index = (props) => {
       <View style={{
         height: 270, paddingRight: 30, paddingLeft: 30
       }}>
+
+        {/* Input Field */}
         <View style={{
-          height: 270,
-          backgroundColor: 'red'
+          height: 108,
+          flexDirection: 'column'
         }}>
-          <Form>
+
+          <View style={{ width: '100%' }}>
+
             <Item floatingLabel>
-              <Label>Username</Label>
+              <Label style={{ fontFamily: MAIN_FONT, color: TEXT_GRAY, fontSize: 15 }}>Email</Label>
               <Input />
             </Item>
-            <Item floatingLabel>
-              <Label>Username</Label>
-              <Input />
-            </Item>
-          </Form>
+
+          </View>
+          <View style={{ width: '100%', flexDirection: 'row' }}>
+            <View style={{ width: 270 }}>
+              <Item floatingLabel>
+                <Label style={{ fontFamily: MAIN_FONT, color: TEXT_GRAY, fontSize: 15 }}>Password</Label>
+                <Input style={{
+                  borderColor: TEXT_GRAY,
+                }} />
+              </Item>
+            </View>
+            <View style={{
+              width: 80, justifyContent: 'center', alignItems: 'center',
+              borderColor: TEXT_GRAY, borderBottomWidth: 1.1,
+            }}>
+              <Text style={{ fontFamily: MAIN_FONT, color: TEXT_GRAY, fontSize: 15 }}>Forget ?</Text>
+            </View>
+          </View>
+          <View>
+
+          </View>
+
+        </View>
+
+        {/* Remember Row */}
+        <View style={{ height: 70, width: '100%' }}>
+          <Grid>
+            <Row>
+              <Col style={{ width: 40, justifyContent: 'center', alignItems: 'center' }}>
+                <CheckBox
+                  value={true}
+                  tintColors={'#FFF'}
+                  onValueChange={() => console.log('change value')}
+                />
+              </Col>
+              <Col style={{ width: 160, justifyContent: 'center' }}>
+                <Text style={{ fontFamily: MAIN_FONT, color: TEXT_GRAY, fontSize: 15, width: 150, letterSpacing: 1 }}>Remember me</Text>
+              </Col>
+            </Row>
+          </Grid>
         </View>
       </View>
-
 
 
     </>
