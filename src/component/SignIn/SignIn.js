@@ -7,43 +7,30 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 import { MAIN_FONT_BOLD, MAIN_FONT, MAIN_FONT_SEMI_BOLD, WHITE, TEXT_GRAY } from "../../constant";
 
+import CustomButton from "../../element/Button/CustomLoginButton/CustomLoginButton";
+
+import { FakeView } from "../../@library"
+
+import styles from './Styles'
+
 const Index = (props) => {
   return (
     <>
       {/* Header Title Row With Back Navigation */}
       <View
-        style={{
-          backgroundColor: "#242A35",
-          height: 210,
-        }}
+        style={styles.containerHeader}
       >
         <Grid>
-          <Row
-            style={{
-              height: 45,
-              alignItems: "center",
-              paddingLeft: 10,
-            }}
-          >
+          <Row style={styles.headerNavigation}>
             <FontAwesomeIcon icon={faArrowLeft} size={16} color={WHITE} />
-            <Text style={{ color: WHITE, fontFamily: MAIN_FONT_SEMI_BOLD }}>
+            <Text style={styles.headerNavigationText}>
               {" "} BACK
             </Text>
           </Row>
-          <Row
-            style={{
-              paddingLeft: 30,
-            }}
-          >
+          <Row style={styles.headerTitle} >
             <Col>
               <Row style={{ alignItems: "center" }}>
-                <Text
-                  style={{
-                    color: "#FFF",
-                    fontFamily: MAIN_FONT_BOLD,
-                    fontSize: 28,
-                  }}
-                >
+                <Text style={styles.headerTitleText}>
                   Log into
                 </Text>
               </Row>
@@ -126,8 +113,41 @@ const Index = (props) => {
             </Row>
           </Grid>
         </View>
-      </View>
 
+        {/* Fake View */}
+        <FakeView height={10} />
+        {/* End Fake View */}
+
+        {/* Button */}
+
+        <View style={{ height: 60, width: '100%' }}>
+
+          <CustomButton text="Sign in" fb={false} />
+        </View>
+        {/* End Button */}
+
+        {/* Fake View */}
+        <FakeView height={10} />
+        {/* End Fake View */}
+
+        {/* Social Button */}
+
+        <View style={{ height: 60, width: '100%' }}>
+          <CustomButton text="sign in with facebook" fb={true} />
+        </View>
+        {/* End Soci
+        
+        
+        
+        
+        
+        al Button */}
+
+
+
+
+
+      </View>
 
     </>
   );
