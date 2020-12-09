@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, StatusBar } from "react-native";
 import CheckBox from '@react-native-community/checkbox'
 import { Grid, Row, Col, Item, Label, Input } from "native-base";
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
@@ -16,6 +16,7 @@ import styles from './Styles'
 const Index = (props) => {
   return (
     <>
+      <StatusBar backgroundColor="#242A35" />
       {/* Header Title Row With Back Navigation */}
       <View
         style={styles.containerHeader}

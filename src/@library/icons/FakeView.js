@@ -1,4 +1,5 @@
-// For Fake View
+// For blank horizontal View 
+
 
 import React from "react";
 import { View } from "react-native"
@@ -16,6 +17,6 @@ const styles = heiGht => ScaledSheet.create({
 
     fakeView: {
         height: `${heiGht}@s`,
-
+        width: '100%'
     }
 });

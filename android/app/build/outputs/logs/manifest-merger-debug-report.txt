@@ -10,7 +10,9 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.37.0] /home/imran/.gr
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.37.0] /home/imran/.gradle/caches/transforms-2/files-2.1/3685b3f870294af2903d7eceb3143705/jetified-flipper-fresco-plugin-0.37.0/AndroidManifest.xml:8:1-15:12
 MERGED from [androidx.multidex:multidex:2.0.0] /home/imran/.gradle/caches/transforms-2/files-2.1/32c6a5ddd5c9cbececdd83e6b5a9bd69/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [:react-native-community_async-storage] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_checkbox] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-community_masked-view] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_picker] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-fbsdk] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/react-native-fbsdk/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:1-28:12
 MERGED from [:react-native-gesture-handler] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
@@ -79,7 +81,7 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/imran/.gradle/caches/t
 MERGED from [com.facebook.soloader:annotation:0.8.2] /home/imran/.gradle/caches/transforms-2/files-2.1/0874771e577570655e55c8a6c659720c/jetified-annotation-0.8.2/AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/imran/.gradle/caches/transforms-2/files-2.1/b88a8355df774a14f90b61b438bbaf4e/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/imran/.gradle/caches/transforms-2/files-2.1/4a2613ea79269d381e2fde2109decb58/jetified-ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.installreferrer:installreferrer:1.0] /home/imran/.gradle/caches/transforms-2/files-2.1/813d6c21f7fe61a62dcadfdc4e6a403b/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.installreferrer:installreferrer:1.0] /home/imran/.gradle/caches/transforms-2/files-2.1/8630b7f2f17731273c52e31b01511614/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
 INJECTED from /home/imran/Working_Project/react_native/Project/honeybunnybd/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /home/imran/Working_Project/react_native/Project/honeybunnybd/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /home/imran/Working_Project/react_native/Project/honeybunnybd/android/app/src/debug/AndroidManifest.xml:2:1-8:12
@@ -130,8 +132,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/imran
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/imran/.gradle/caches/transforms-2/files-2.1/8b9400e1cfbf085989b5d952808cf8c6/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [com.facebook.soloader:annotation:0.8.2] /home/imran/.gradle/caches/transforms-2/files-2.1/0874771e577570655e55c8a6c659720c/jetified-annotation-0.8.2/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:annotation:0.8.2] /home/imran/.gradle/caches/transforms-2/files-2.1/0874771e577570655e55c8a6c659720c/jetified-annotation-0.8.2/AndroidManifest.xml:11:5-20
-MERGED from [com.android.installreferrer:installreferrer:1.0] /home/imran/.gradle/caches/transforms-2/files-2.1/813d6c21f7fe61a62dcadfdc4e6a403b/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
-MERGED from [com.android.installreferrer:installreferrer:1.0] /home/imran/.gradle/caches/transforms-2/files-2.1/813d6c21f7fe61a62dcadfdc4e6a403b/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] /home/imran/.gradle/caches/transforms-2/files-2.1/8630b7f2f17731273c52e31b01511614/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] /home/imran/.gradle/caches/transforms-2/files-2.1/8630b7f2f17731273c52e31b01511614/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /home/imran/.gradle/caches/transforms-2/files-2.1/97824c0d689f7e6c99433775d0fe5c48/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
@@ -206,8 +208,12 @@ MERGED from [androidx.multidex:multidex:2.0.0] /home/imran/.gradle/caches/transf
 MERGED from [androidx.multidex:multidex:2.0.0] /home/imran/.gradle/caches/transforms-2/files-2.1/32c6a5ddd5c9cbececdd83e6b5a9bd69/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [:react-native-community_async-storage] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_async-storage] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_checkbox] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/@react-native-community/checkbox/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_picker] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_picker] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/@react-native-community/picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-fbsdk] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/react-native-fbsdk/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:5-26:41
 MERGED from [:react-native-fbsdk] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/react-native-fbsdk/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:5-26:41
 MERGED from [:react-native-gesture-handler] /home/imran/Working_Project/react_native/Project/honeybunnybd/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -344,8 +350,8 @@ MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/imran/.gradle/caches/transf
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/imran/.gradle/caches/transforms-2/files-2.1/b88a8355df774a14f90b61b438bbaf4e/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/imran/.gradle/caches/transforms-2/files-2.1/4a2613ea79269d381e2fde2109decb58/jetified-ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/imran/.gradle/caches/transforms-2/files-2.1/4a2613ea79269d381e2fde2109decb58/jetified-ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.installreferrer:installreferrer:1.0] /home/imran/.gradle/caches/transforms-2/files-2.1/813d6c21f7fe61a62dcadfdc4e6a403b/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.installreferrer:installreferrer:1.0] /home/imran/.gradle/caches/transforms-2/files-2.1/813d6c21f7fe61a62dcadfdc4e6a403b/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /home/imran/.gradle/caches/transforms-2/files-2.1/8630b7f2f17731273c52e31b01511614/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /home/imran/.gradle/caches/transforms-2/files-2.1/8630b7f2f17731273c52e31b01511614/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
 INJECTED from /home/imran/Working_Project/react_native/Project/honeybunnybd/android/app/src/debug/AndroidManifest.xml
 INJECTED from /home/imran/Working_Project/react_native/Project/honeybunnybd/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
@@ -425,6 +431,6 @@ ADDED from [com.facebook.android:facebook-core:7.1.0] /home/imran/.gradle/caches
 	android:name
 		ADDED from [com.facebook.android:facebook-core:7.1.0] /home/imran/.gradle/caches/transforms-2/files-2.1/bc7f003cc79ad234cac022d2ae882ff4/jetified-facebook-core-7.1.0/AndroidManifest.xml:48:25-92
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
-ADDED from [com.android.installreferrer:installreferrer:1.0] /home/imran/.gradle/caches/transforms-2/files-2.1/813d6c21f7fe61a62dcadfdc4e6a403b/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+ADDED from [com.android.installreferrer:installreferrer:1.0] /home/imran/.gradle/caches/transforms-2/files-2.1/8630b7f2f17731273c52e31b01511614/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
 	android:name
-		ADDED from [com.android.installreferrer:installreferrer:1.0] /home/imran/.gradle/caches/transforms-2/files-2.1/813d6c21f7fe61a62dcadfdc4e6a403b/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+		ADDED from [com.android.installreferrer:installreferrer:1.0] /home/imran/.gradle/caches/transforms-2/files-2.1/8630b7f2f17731273c52e31b01511614/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107

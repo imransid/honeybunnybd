@@ -13,8 +13,12 @@ import java.util.ArrayList;
 
 // @react-native-community/async-storage
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
+// @react-native-community/checkbox
+import com.reactnativecommunity.checkbox.ReactCheckBoxPackage;
 // @react-native-community/masked-view
 import org.reactnative.maskedview.RNCMaskedViewPackage;
+// @react-native-community/picker
+import com.reactnativecommunity.picker.RNCPickerPackage;
 // react-native-fbsdk
 import com.facebook.reactnative.androidsdk.FBSDKPackage;
 // react-native-gesture-handler
@@ -73,7 +77,9 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new AsyncStoragePackage(),
+      new ReactCheckBoxPackage(),
       new RNCMaskedViewPackage(),
+      new RNCPickerPackage(),
       new FBSDKPackage(),
       new RNGestureHandlerPackage(),
       new LinearGradientPackage(),
